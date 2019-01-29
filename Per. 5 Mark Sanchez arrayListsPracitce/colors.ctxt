@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=colors
+comment1.params=
+comment1.target=colors()
+comment2.params=
+comment2.target=void\ printColors()
+comment3.params=newColor
+comment3.target=void\ add(java.lang.String)
+comment4.params=pos
+comment4.target=void\ get(int)
+comment5.params=pos\ newColor
+comment5.target=void\ replace(int,\ java.lang.String)
+comment6.params=
+comment6.target=void\ removeThird()
+comment7.params=search
+comment7.target=void\ find(java.lang.String)
+comment8.params=
+comment8.target=void\ copyArrayList()
+comment9.params=start\ end
+comment9.target=void\ extract(int,\ int)
+numComments=10
