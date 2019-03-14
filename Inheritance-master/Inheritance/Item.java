@@ -6,7 +6,13 @@
  * @version 1.2
  */
 import java.util.ArrayList;
-public class Item implements ItemInterface{
+public abstract class Item implements ItemInterface{
     //Implemented in your own way
-    
+    protected String type;
+    public Item(String type){
+        this.type = type;
+    }
+    public String getType(){
+        return type;
+    }
 }
