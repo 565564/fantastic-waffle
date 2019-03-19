@@ -13,8 +13,5 @@ public abstract class Weapon extends Item
         this.type = "Weapon";
     }
 
-    public void attack(){
-        System.out.println("You attack blank for" + damage + "damage");
-        this.damage = damage;
-    }
+    public abstract void attack();
 }

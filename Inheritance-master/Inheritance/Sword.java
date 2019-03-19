@@ -7,11 +7,20 @@
  */
 public class Sword extends Weapon
 {
-    private int damage;
-    final String name = "Sword";
+    protected int damage;
     public Sword(String name, String type){
         super(name, type);
+        this.name = "Sword";
         this.type = "Weapon";
         damage = 25;
+    }
+
+    public Sword(){
+        this("Sword", "Weapon");
+    }
+
+    @ Override
+    public void attack(){
+        System.out.println("You attack blank with " + name + " for " + damage + " damage.");
     }
 }
