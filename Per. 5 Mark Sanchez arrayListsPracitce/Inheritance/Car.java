@@ -26,7 +26,7 @@ public class Car extends Vehicle
         System.out.println("You turn off the engine.");
     }
 
-    public void russle(){
+    public void russel(){
         System.out.println("Russell crashed into a car.");
     }
 
