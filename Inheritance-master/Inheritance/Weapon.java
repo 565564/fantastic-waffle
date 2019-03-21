@@ -1,17 +1,18 @@
-
-/**
- * Abstract class Weapon - write a description of the class here
- *
- * @author (your name here)
- * @version (version number or date here)
- */
 public abstract class Weapon extends Item
 {
     protected int damage;
+    protected boolean parry;
     public Weapon(String name, String type){
         super(name, type);
         this.type = "Weapon";
     }
 
-    public abstract void attack();
+    public int attack(){
+        System.out.println("You attack blank for ");
+        return damage;
+    }
+
+    public boolean parry(){
+        return parry;
+    }
 }
