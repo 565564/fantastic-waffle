@@ -6,7 +6,7 @@
  * @version 1.2
  */
 import java.util.ArrayList;
-public class Backpack implements BackpackInterface {
+public class Backpack implements BackpackInterface{
     // instance variables - replace the example below with your own
     private ArrayList<Item> backpack;
 

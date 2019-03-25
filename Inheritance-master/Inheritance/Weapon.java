@@ -6,7 +6,7 @@ public abstract class Weapon extends Item
         super(name, type);
         this.type = "Weapon";
     }
-    
+
     public int attack(){
         System.out.println("You attack blank with " + name + " for " + damage);
         return damage;

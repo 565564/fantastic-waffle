@@ -7,12 +7,17 @@ public abstract class Item implements ItemInterface{
         this.name = name;
         this.type = type;
     }
-    
+
     public String getName(){
         return name;
     }
 
     public String getType(){
         return type;
+    }
+
+    public String info(){
+        System.out.println("Name: " + name + "\nType: " + type);
+        return null;
     }
 }
