@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public abstract class Main implements CharacterInterface{
+    public void main(String[] args) {
         boolean game = true;
         while (game) {
             Character.getName();

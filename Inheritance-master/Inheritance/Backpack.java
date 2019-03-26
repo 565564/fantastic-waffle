@@ -26,7 +26,9 @@ public class Backpack implements BackpackInterface{
      * @return     true if added
      */
     public void storeItem(Item item){
-            backpack.add(item);       
+        backpack.add(item);
+        System.out.println("You picked up " + item.getName() + "."); 
+        item.info();
     }
 
     /**
