@@ -1,3 +1,5 @@
+import java.util.*;
+import java.lang.*;
 public abstract class Weapon extends Item
 {
     protected int damage;

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Gun
+comment1.params=name\ type
+comment1.target=Gun(java.lang.String,\ java.lang.String)
+numComments=2
