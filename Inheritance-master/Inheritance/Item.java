@@ -1,11 +1,12 @@
-import java.util.ArrayList;
 public abstract class Item implements ItemInterface{
     //Implemented in your own way
     protected String name;
     protected String type;
-    public Item(String name, String type){
+    protected int health;
+    public Item(String name, String type, int health){
         this.name = name;
         this.type = type;
+        this.health = health;
     }
 
     public String getName(){
@@ -17,7 +18,6 @@ public abstract class Item implements ItemInterface{
     }
 
     public String info(){
-        System.out.println("Name: " + name + "\nType: " + type);
-        return null;
+        return("Name: " + name + "\nType: " + type + "\nHealth: " + health);
     }
 }

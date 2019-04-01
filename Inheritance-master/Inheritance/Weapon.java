@@ -1,20 +1,21 @@
-import java.util.*;
-import java.lang.*;
 public abstract class Weapon extends Item
 {
-    protected int damage;
+    protected int health;
     protected boolean parry;
-    public Weapon(String name, String type){
-        super(name, type);
-        this.type = "Weapon";
+    public Weapon(String name, String type, int health){
+        super(name, type, health);
     }
 
     public int attack(){
-        System.out.println("You attack blank with " + name + " for " + damage);
-        return damage;
+        System.out.print("You attack blank with " + name + " for ");
+        return health;
     }
 
     public boolean parry(){
         return parry;
+    }
+
+    public String info(){
+        return("Name: " + name + "\nType: " + type + "\nDamage: " + health);
     }
 }

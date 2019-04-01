@@ -1,7 +1,9 @@
 #BlueJ class context
 comment0.target=Character
-comment1.params=name
-comment1.target=Character(java.lang.String)
+comment1.params=name\ HP
+comment1.target=Character(java.lang.String,\ int)
 comment2.params=
 comment2.target=java.lang.String\ getName()
-numComments=3
+comment3.params=
+comment3.target=int\ getHP()
+numComments=4

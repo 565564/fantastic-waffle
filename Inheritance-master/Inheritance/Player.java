@@ -1,20 +1,17 @@
-
-/**
- * Write a description of class Player here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 import java.util.Scanner;
 
-public class Player extends Character
-{
-    protected String name;
-    public Player(String name){
+public final class Player extends Character {
+
+    public Player(String name, int HP) {
+        super(name, HP);
         Scanner reader = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int n = reader.nextInt();
+        System.out.print("Enter a name: ");
+        name = reader.next();
         this.name = name;
+        this.HP = 100;
     }
 
+    public Player() {
+        this("Player", 100);
+    }
 }
