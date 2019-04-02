@@ -1,4 +1,3 @@
-import java.util.*;
 public abstract class Character implements CharacterInterface
 {
     protected String name;

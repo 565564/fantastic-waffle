@@ -1,8 +1,10 @@
-public abstract class Gun extends Weapon
-{
-    public Gun(String name, String type){
-        super("Gun", type);
-        this.name = "Gun";
-        damage = 100;
+public abstract class Gun extends Weapon {
+    public Gun(String name, String type, int health) {
+        super(name, type, health);
+    }
+
+    public int shoot(){
+        System.out.print("You shot someone!");
+        return health;
     }
 }
