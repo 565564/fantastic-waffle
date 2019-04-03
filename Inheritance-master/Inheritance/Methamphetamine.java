@@ -10,6 +10,7 @@ public final class Methamphetamine extends Drugs{
     }
 
     public String took(){
+        System.out.println("\u001B31;1mjoe");
         return "You took " + name + "but took " + health  + " health";
     }
 }

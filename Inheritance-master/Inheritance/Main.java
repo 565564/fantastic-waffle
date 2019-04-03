@@ -32,7 +32,7 @@ public class Main {
                 System.out.println(backpack.getInventory());
                 break;
                 case "eat":
-                System.out.println();
+                System.out.println(apple.consume());
                 break;
                 case "use":
                 System.out.println("Which item would you like to use?\n" + backpack.getInventory() + " ");

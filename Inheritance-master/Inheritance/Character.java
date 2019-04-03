@@ -14,4 +14,8 @@ public abstract class Character implements CharacterInterface
     public int getHP(){
         return HP;
     }
+
+    public String info(){
+        return "Name: " + name + "\nHP" + HP;
+    }
 }
