@@ -4,6 +4,9 @@ public final class Apple extends Food{
     }
 
     public Apple(){
-        super("Apple", "Food", 10);
+        super("Apple", "Consumable", 10);
+    }
+    public int Consume(){
+        
     }
 }

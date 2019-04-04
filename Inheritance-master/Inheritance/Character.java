@@ -1,4 +1,4 @@
-public abstract class Character implements CharacterInterface
+public abstract class Character
 {
     protected String name;
     protected int HP;

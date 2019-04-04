@@ -1,4 +1,4 @@
-public abstract class Weapon extends Item
+public abstract class Weapon extends Item implements WeaponInterface
 {
     protected int health;
     protected boolean parry;

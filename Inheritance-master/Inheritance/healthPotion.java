@@ -14,4 +14,9 @@ public final class healthPotion extends Potion
     public healthPotion(){
         super("Health Potion", "Consumable", 10);
     }
+
+    public int consume(){
+        System.out.println("You drank your " + name + "for ");
+        return health;
+    }
 }

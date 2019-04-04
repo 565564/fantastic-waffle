@@ -3,8 +3,16 @@ public abstract class Gun extends Weapon {
         super(name, type, health);
     }
     int ammo;
+    int possibility = 100;
+    int random = (int )(Math.random() * 50 + 1);
     public int shoot(){
-        System.out.print("You shot someone!");
+        for (int i = 0; i > ammo; i++){
+            if (random < 50){
+                System.out.println("You missed.");
+                return 0;
+            }
+            System.out.print("You shot someone!");
+        }
         return health;
     }
 }

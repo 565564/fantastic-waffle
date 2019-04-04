@@ -5,10 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Enemy
+public class Enemy extends Character
 {
-    private String name;
-    private String health;
-    private String defense;
-    private String damamge;
+    public 
 }
